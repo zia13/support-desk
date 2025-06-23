@@ -10,6 +10,7 @@ import { BoardModeratorComponent } from './board-moderator/board-moderator.compo
 import { BoardAdminComponent } from './board-admin/board-admin.component';
 import { TicketListComponent } from './tickets/ticket-list.component';
 import { TicketDetailComponent } from './tickets/ticket-detail.component';
+import {TicketCreateComponent} from "./tickets/ticket-create.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'admin', component: BoardAdminComponent },
   { path: 'ticket', component: TicketDetailComponent },
   { path: 'tickets', component: TicketListComponent },
+  { path: 'tickets/create', component: TicketCreateComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 

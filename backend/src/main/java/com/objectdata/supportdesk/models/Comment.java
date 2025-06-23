@@ -15,5 +15,4 @@ public class Comment {
     @JoinColumn(name="ticket_id", nullable=false)
     private Ticket ticket;
 
-    // getters and setters
 }
