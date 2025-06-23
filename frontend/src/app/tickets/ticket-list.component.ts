@@ -24,12 +24,12 @@ import {FormsModule} from "@angular/forms";
         Loading tickets...
       </div>
 
-      <div
-        *ngIf="!store.isLoading() && store.allTickets().length === 0"
-        class="text-gray-500"
-      >
-        No tickets found.
-      </div>
+<!--      <div-->
+<!--        *ngIf="!store.isLoading() && store.allTickets().length === 0"-->
+<!--        class="text-gray-500"-->
+<!--      >-->
+<!--        No tickets found.-->
+<!--      </div>-->
 
       <label class="block mb-2 font-medium">Filter by Status:</label>
       <select [(ngModel)]="selectedStatus" (ngModelChange)="filteredTickets()" class="mb-4 p-2 border rounded">

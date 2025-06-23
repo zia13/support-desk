@@ -51,6 +51,8 @@ export class AppComponent {
         window.location.reload();
       },
       error: err => {
+        this.storageService.clean();
+        window.location.reload();
         console.log(err);
       }
     });

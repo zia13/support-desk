@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import {AppConstants} from "../_helpers/app.constants";
 
-const AUTH_API = AppConstants.API_BASE_URL + '/api/auth/';
+const AUTH_API = AppConstants.API_BASE_URL + '/auth/';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
