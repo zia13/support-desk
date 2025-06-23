@@ -1,0 +1,38 @@
+.dashboard-container {
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.stats-cards {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+}
+
+.card.total {
+  background-color: #3f51b5;
+}
+
+.card.open {
+  background-color: #ff9800;
+}
+
+.card.closed {
+  background-color: #4caf50;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 0 0 0.5rem 0;
+}

@@ -1,0 +1,18 @@
+{
+  "users": [
+    { "id": "1", "email": "admin@help.com", "fullName": "Admin", "role": "admin" }
+  ],
+  "tickets": [
+    {
+      "id": "101",
+      "title": "Login not working",
+      "description": "Unable to login from mobile",
+      "status": "new",
+      "createdBy": "1",
+      "assignedTo": null,
+      "createdAt": "2024-06-01T00:00:00Z",
+      "updatedAt": "2024-06-01T00:00:00Z",
+      "comments": []
+    }
+  ]
+}
